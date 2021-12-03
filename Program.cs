@@ -22,7 +22,7 @@ var app = builder.Build();
 // This is an authenticated endpoint
 app.MapGet("/weatherForecast", (HttpContext context) => 
 {
-    context.VerifyUserHasAnyAcceptedScope(new string[] { "access_as_user2" });
+    context.VerifyUserHasAnyAcceptedScope(new string[] { "access_as_user" });
     // verify that the incoming request has the right scope(s)
     //AuthHelper.UserHasAnyAcceptedScopes(context, new string[] {"access_as_user"});
     return Enumerable.Range(1, 5).Select(index => new WeatherForecast

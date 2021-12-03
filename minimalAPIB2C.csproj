@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UserSecretsId>aspnet-minimalAPIB2C-00B4B87D-4117-49D1-9131-622D61D6FF97</UserSecretsId>
   </PropertyGroup>
